@@ -29,7 +29,7 @@ window.getDeck = function() {
 $(function() {
   $(".deal").on("click", function(event) {
     event.preventDefault()
-    
+    var d1 = 
   })
 
 
