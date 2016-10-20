@@ -29,14 +29,13 @@ window.getDeck = function() {
 $(function() {
   $(".deal").on("click", function(event) {
     event.preventDefault()
-    $("img-responsive").remove();
-    var c1 = getDeck (1,13)
-    var c2 = getDeck (1,13)
-    var c3 = getDeck (1,13)
-    var c4 = getDeck (1,13)
-    var c5 = getDeck (1,13)
-    console.log(c1)
-
+    var cards =getDeck();
+    cards.shuffle();
+    $("#c1").attr("src", "http://golearntocode.com/images/cards/" + cards[0] + ".png")
+    $("#c2").attr("src", "http://golearntocode.com/images/cards/" + cards[1] + ".png")
+    $("#c3").attr("src", "http://golearntocode.com/images/cards/" + cards[2] + ".png")
+    $("#c4").attr("src", "http://golearntocode.com/images/cards/" + cards[3] + ".png")
+    $("#c5").attr("src", "http://golearntocode.com/images/cards/" + cards[4] + ".png")
   })
 
 })
