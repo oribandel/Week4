@@ -29,8 +29,14 @@ window.getDeck = function() {
 $(function() {
   $(".deal").on("click", function(event) {
     event.preventDefault()
+    $("img-responsive").remove();
+    var c1 = getDeck (1,13)
+    var c2 = getDeck (1,13)
+    var c3 = getDeck (1,13)
+    var c4 = getDeck (1,13)
+    var c5 = getDeck (1,13)
+    console.log(c1)
 
-    })
-
+  })
 
 })
