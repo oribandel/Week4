@@ -29,7 +29,7 @@ window.getDeck = function() {
 $(function() {
   $(".deal").on("click", function(event) {
     event.preventDefault()
-    var cards =getDeck();
+    var cards = getDeck();
     cards.shuffle();
     $("#c1").attr("src", "http://golearntocode.com/images/cards/" + cards[0] + ".png")
     $("#c2").attr("src", "http://golearntocode.com/images/cards/" + cards[1] + ".png")

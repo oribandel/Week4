@@ -1,7 +1,7 @@
 
 $(function() {
 
-  $("button.btn.btn-danger").on("click", function(event) {
+  $("button.btn.btn-success").on("click", function(event) {
     var elementThatWasClicked = $(this);
     console.log(elementThatWasClicked);
     elementThatWasClicked.parent().remove();
