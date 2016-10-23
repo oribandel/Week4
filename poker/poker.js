@@ -36,6 +36,23 @@ $(function() {
     $("#c3").attr("src", "http://golearntocode.com/images/cards/" + cards[2] + ".png")
     $("#c4").attr("src", "http://golearntocode.com/images/cards/" + cards[3] + ".png")
     $("#c5").attr("src", "http://golearntocode.com/images/cards/" + cards[4] + ".png")
+
+    // --> proffesor solution
+    $(function) {
+
+      $(".deal").on("click", function(event) {
+      event.preventDefault
+      var cards = getDeck().shuffle()
+      $("#c1").
+      })
+
+    })
+    //
+    //
+    //
+    //
+    //
+
   })
 
 })
